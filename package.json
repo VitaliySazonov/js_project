@@ -17,9 +17,9 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/VitaliySazonov/js_project/issues"
+    "url": "https://vitaliysazonov.github.io/js_project/issues"
   },
-  "homepage": "https://github.com/VitaliySazonov/js_project",
+  "homepage": "https://vitaliysazonov.github.io/js_project/",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
