@@ -1,0 +1,23 @@
+<div id="{{this.id}}">
+  <a class="btn {{this.btn_class}}" href="#">{{this.btn_text}}</a>
+  <ul class="list movie">
+    {{#each movie}}
+      <li>
+        <div class="mini-post">
+          <a href="#">
+            <img src="{{this.img_url}}" alt="{{this.title}}"/>
+            <div class="custom-info">
+              <span><i class="glyphicon glyphicon-calendar"></i>{{this.date}}</span>
+              <span><i class="glyphicon glyphicon-eye-open"></i>{{this.watch}}</span>
+            </div>
+          </a>
+        </div>
+        <a class="mini-post-name" href="#" title="${el.title}">{{this.title}}</a>
+        <div class="mini-post-info">
+          <a href="#">{{this.year}}</a> <a href="#">{{this.country}}</a>
+        </div>
+      </li>
+    {{/each}}
+  </ul>
+</div>
+
