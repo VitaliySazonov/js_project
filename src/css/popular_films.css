@@ -1,0 +1,135 @@
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 18px;
+  row-gap: 10px;
+}
+
+.btn {
+  border: none;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 1.4;
+  border-radius: 4px;
+  padding: 8px 15px;
+  margin: 10px 0;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+  transition: border .25s linear, color .25s linear, background-color .25s linear;
+  color: #fff;
+  background-color: #2f364a;
+}
+
+.btn-inverse {
+  color: #fff;
+  background-color: #2f364a;
+}
+
+
+
+.btn-warning {
+  color: #fff;
+  background-color: #f1c40f;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #e74c3c;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+.btn-inverse:hover, .btn-inverse:focus {
+  color: #fff;
+  background-color: #415b76;
+  border-color: #415b76;
+}
+
+.btn-warning:hover, .btn-warning:focus {
+  color: #fff;
+  background-color: #f5d313;
+  border-color: #f5d313;
+}
+
+.btn-danger:hover, .btn-danger:focus {
+  color: #fff;
+  background-color: #ec7063;
+  border-color: #ec7063;
+}
+
+.btn-success:hover, .btn-success:focus {
+  color: #fff;
+  background-color: #58d68d;
+  border-color: #58d68d;
+}
+
+.list li {
+  width: 152px;
+  height: auto;
+}
+
+.mini-post {
+  overflow: hidden;
+  box-shadow: 0 1px 4px 0 #000;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.mini-post img {
+  width: 100%;
+}
+.custom-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: -22px 0 0 0;
+  font-size: 11px;
+  font-weight: bold;
+  color: #fff;
+  background: #000;
+  padding: 2px 5px;
+  position: relative;
+  height: 22px;
+  display: none;
+}
+
+.custom-info i {
+  margin-right: 2px;
+}
+.list li:hover .custom-info {
+  display: flex;
+}
+
+.mini-post-name {
+  color: #000;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.mini-post-info a {
+  line-height: 14px;
+  font-size: 11px;
+  color: #848484;
+}
+.mini-post-info a:hover, .mini-post-name:hover {
+  text-decoration: underline;
+}
+
+.site_info h6 {
+  background: #4d5f87;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 20px;
+  color: #f8f4ed;
+  padding: 4px 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
