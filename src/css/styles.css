@@ -6,3 +6,227 @@
   text-decoration: none;
 }
 
+header {
+  background-color: rgba(47, 54, 74, 1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container .header_nav {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.container .header_nav .brand .brand_name {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.container .header_nav nav {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .header_nav nav .nav_item {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+.container .header_nav nav .nav_item.active_item {
+  background: orange;
+}
+
+.container .header_nav label input {
+  font-size: 17px;
+  padding: 0 3px 3px 3px;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-right: 30px;
+  background-color: #2f364a;
+  color: white;
+}
+
+.container .header_nav label input::placeholder {
+  color: #ffffff;
+}
+
+.container .header_nav label input:focus {
+  outline: none;
+}
+
+/*==============================================================*/
+.container .search_content {
+  padding: 30px;
+}
+
+.container .search_content p.error {
+  text-align: center;
+  font-size: 30px;
+}
+
+.container .search_content .movie {
+  display: flex;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: rgba(241, 241, 241, 1);
+}
+.container .search_content p.result {
+  font-size: 20px;
+  padding: 20px;
+  background: rgba(241, 241, 241, 1);
+  color: #464646;
+  margin-bottom: 30px;
+}
+.container .search_content .movie .movie_img {
+  max-width: 200px;
+  margin-right: 30px;
+}
+
+.container .search_content .movie .description p{
+  margin-bottom: 20px;
+}
+
+.container .search_content .movie .description .title {
+  color: #78829d;
+  font-size: 30px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.container .search_content .movie .description .release_date {
+  font-size: 20px;
+  color: #848484;
+}
+.container .search_content .movie  .description .overview {
+  color: #383838;
+  font-size: 18px;
+}
+
+
+.section {
+  background-color: #223047;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-btn {
+  display: none;
+  height: 27px;
+  width: 27px;
+  background-color: #223047;
+  position: relative;
+}
+
+.menu-btn span,
+.menu-btn span::before,
+.menu-btn span::after {
+  position: absolute;
+  top: 50%; margin-top: -1px;
+  left: 40%; margin-left: -10px;
+  width: 25px;
+  height: 2px;
+  background-color: white;
+}
+
+.menu-btn span::before,
+.menu-btn span::after {
+  content: '';
+  display: block;
+  transition: 0.5s;
+}
+
+.menu-btn span::before {
+  transform: translateY(-8px);
+}
+.menu-btn span::after {
+  transform: translateY(8px);
+}
+
+.menu-btn_active span {
+  height: 0;
+}
+
+.menu-btn_active span::before {
+  transform: rotate(45deg);
+}
+
+.menu-btn_active span::after {
+  transform: rotate(-45deg);
+}
+
+
+@media (max-width: 750px) {
+  .section {
+    display: flex;
+  }
+  .menu-btn {
+    display: block;
+  }
+
+  .header_nav {
+    position: relative;
+  }
+
+  .container .header_nav nav {
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+  }
+
+  .container .header_nav nav.active {
+    display: flex;
+    position: absolute;
+    color: black;
+    bottom: -100%;
+    flex-direction: column;
+    right: 0;
+    opacity: 1;
+  }
+
+  .container .header_nav nav .nav_item {
+    color: black;
+  }
+
+  .search {
+    display: none;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+  }
+
+  .search.active {
+    display: block;
+    position: absolute;
+    bottom: -150%;
+    right: 0;
+    opacity: 1;
+  }
+
+  .container .header_nav label input {
+    width: 175px;
+    border-bottom: 1px solid black;
+    background-color: white;
+    margin-right: 0;
+    color: black;
+  }
+  .container .header_nav label input::placeholder {
+    color: black;
+  }
+
+  .container .search_content .movie {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
