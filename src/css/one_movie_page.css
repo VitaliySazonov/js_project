@@ -1,0 +1,48 @@
+.one_movie_page {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 1);
+}
+
+.background {
+  background: #fff;
+}
+
+.caption {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.caption_view {
+  line-height: 10px;
+  font-size: 28px;
+}
+
+.caption_view_2 {
+  line-height: 14px;
+  font-size: 18px;
+  color: #929292;
+}
+
+.favorites {
+  width: 140px;
+  height: 29px;
+  border-radius: 3px;
+  border: 1px #2f364a solid;
+  background: #2f364a;
+  padding: 5px 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+}
+.favorites:hover {
+  color: #fff;
+}
