@@ -12,3 +12,7 @@ a, a:hover {
 .container {
   width: 1040px;
 }
+
+p, h4, h5, h6{
+  margin: 0;
+}

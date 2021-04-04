@@ -6,6 +6,7 @@
   left: 0;
   z-index: 1;
   background: rgba(0, 0, 0, 1);
+  overflow-y: scroll;
 }
 
 .background {
@@ -13,7 +14,7 @@
 }
 
 .caption {
-  padding: 10px 20px;
+  padding: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,4 +46,118 @@
 }
 .favorites:hover {
   color: #fff;
+}
+
+/*Left side*/
+
+.full_story {
+  display: flex;
+  column-gap: 20px;
+}
+
+.poster {
+  width: 300px;
+  height: 423px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.likes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.btn-like, .btn-dislike {
+  min-width: 100px;
+  padding: 8px 15px;
+  line-height: 1.4;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s linear;
+  height: 30px;
+}
+
+.btn-like:hover {
+  background-color: #1ABC9C;
+  color: #fff;
+}
+
+.btn-dislike:hover {
+  background-color: #E74C3C;
+  color: #fff;
+}
+
+.rating {
+  display: grid;
+  grid-template-columns: 30% repeat(2, 1fr);
+  padding-left: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rating p, .fs_info p {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.rating_img {
+  margin-right: 10px;
+  background-color: #2f364a;
+}
+
+.rating_1 {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.rating_2 {
+  width: 31px;
+  height: 22px;
+}
+
+.fs_info {
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.fs_info span, .fs_info a {
+  font-size: 13px;
+  margin: 5px 0;
+  color: #78829d;
+}
+
+/*Right side*/
+
+.full_story_right h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.full_story_right h6:not(.fsr_first) {
+  margin-top: 10px;
+}
+.full_story_right p, .full_story_right a {
+  font-size: 13px;
+  color: #78829d;
+}
+
+.fsr_kadr div {
+  display: flex;
+}
+
+.fsr_kadr img {
+  display: block;
+  margin-right: 10px;
+  width: 126px;
+  height: 100px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
