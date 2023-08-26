@@ -34,6 +34,7 @@ class HomePage {
         movie_page.btn_text = 'Фильмы';
         movie_page.btn_class = 'btn-inverse';
         movie.push({
+          movie_id: el.id,
           img_url: api.start_url + el.poster_path,
           title: el.title,
           date: el.release_date,
@@ -46,6 +47,7 @@ class HomePage {
         movie_page.btn_text = 'Передачи и шоу';
         movie_page.btn_class = 'btn-warning';
         movie.push({
+          movie_id: el.id,
           img_url: api.start_url + el.poster_path,
           title: el.name,
           date: el.first_air_date,

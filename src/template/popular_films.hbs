@@ -4,7 +4,7 @@
     {{#each movie}}
       <li>
         <div class="mini-post">
-          <a href="#">
+          <a href="#" data-id="{{this.movie_id}}">
             <img src="{{this.img_url}}" alt="{{this.title}}"/>
             <div class="custom-info">
               <span><i class="glyphicon glyphicon-calendar"></i>{{this.date}}</span>
@@ -12,7 +12,7 @@
             </div>
           </a>
         </div>
-        <a class="mini-post-name" href="#" title="${el.title}">{{this.title}}</a>
+        <a class="mini-post-name" href="#" title="${el.title}" data-id="{{this.movie_id}}">{{this.title}}</a>
         <div class="mini-post-info">
           <a href="#">{{this.year}}</a> <a href="#">{{this.country}}</a>
         </div>
