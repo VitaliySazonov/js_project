@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VitaliySazonov/js_project.git"
+    "url": "git+https://github.com/vit-s/js_project.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://vitaliysazonov.github.io/js_project/issues"
+    "url": "https://vit-s.github.io/js_project/issues"
   },
-  "homepage": "https://vitaliysazonov.github.io/js_project/",
+  "homepage": "https://vit-s.github.io/js_project/",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",

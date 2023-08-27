@@ -1,26 +1,37 @@
 <component name="ProjectCodeStyleConfiguration">
   <code_scheme name="Project" version="173">
-    <DB2CodeStyleSettings version="2">
+    <DB2CodeStyleSettings version="5">
+      <option name="USE_GENERAL_STYLE" value="false" />
       <option name="IMP_COMMON_KEEP_BLANK_LINES_IN_CODE" value="1" />
       <option name="IMP_DECLARE_CONTENT_WRAP" value="false" />
       <option name="CORTEGE_SPACE_WITHIN_PARENTHESES" value="true" />
       <option name="EXPR_CALL_SPACE_INSIDE_PARENTHESES" value="true" />
       <option name="EXPR_CASE_THEN_WRAP" value="true" />
     </DB2CodeStyleSettings>
-    <DerbyCodeStyleSettings version="2">
+    <DerbyCodeStyleSettings version="5">
+      <option name="USE_GENERAL_STYLE" value="false" />
       <option name="IMP_COMMON_KEEP_BLANK_LINES_IN_CODE" value="1" />
       <option name="IMP_DECLARE_CONTENT_WRAP" value="false" />
       <option name="CORTEGE_SPACE_WITHIN_PARENTHESES" value="true" />
       <option name="EXPR_CALL_SPACE_INSIDE_PARENTHESES" value="true" />
       <option name="EXPR_CASE_THEN_WRAP" value="true" />
     </DerbyCodeStyleSettings>
-    <H2CodeStyleSettings version="2">
+    <H2CodeStyleSettings version="5">
+      <option name="USE_GENERAL_STYLE" value="false" />
       <option name="IMP_COMMON_KEEP_BLANK_LINES_IN_CODE" value="1" />
       <option name="CORTEGE_SPACE_WITHIN_PARENTHESES" value="true" />
       <option name="EXPR_CALL_SPACE_INSIDE_PARENTHESES" value="true" />
       <option name="EXPR_CASE_THEN_WRAP" value="true" />
     </H2CodeStyleSettings>
-    <HSQLCodeStyleSettings version="2">
+    <H2CodeStyleSettings version="5">
+      <option name="USE_GENERAL_STYLE" value="false" />
+      <option name="IMP_COMMON_KEEP_BLANK_LINES_IN_CODE" value="1" />
+      <option name="CORTEGE_SPACE_WITHIN_PARENTHESES" value="true" />
+      <option name="EXPR_CALL_SPACE_INSIDE_PARENTHESES" value="true" />
+      <option name="EXPR_CASE_THEN_WRAP" value="true" />
+    </H2CodeStyleSettings>
+    <HSQLCodeStyleSettings version="5">
+      <option name="USE_GENERAL_STYLE" value="false" />
       <option name="IMP_COMMON_KEEP_BLANK_LINES_IN_CODE" value="1" />
       <option name="CORTEGE_SPACE_WITHIN_PARENTHESES" value="true" />
       <option name="EXPR_CALL_SPACE_INSIDE_PARENTHESES" value="true" />
@@ -36,47 +47,53 @@
       <option name="SPACES_WITHIN_IMPORTS" value="true" />
       <option name="SPACE_BEFORE_ASYNC_ARROW_LPAREN" value="false" />
     </JSCodeStyleSettings>
-    <MSSQLCodeStyleSettings version="2">
+    <MSSQLCodeStyleSettings version="5">
+      <option name="USE_GENERAL_STYLE" value="false" />
       <option name="IMP_COMMON_KEEP_BLANK_LINES_IN_CODE" value="1" />
       <option name="IMP_DECLARE_CONTENT_WRAP" value="false" />
       <option name="CORTEGE_SPACE_WITHIN_PARENTHESES" value="true" />
       <option name="EXPR_CALL_SPACE_INSIDE_PARENTHESES" value="true" />
       <option name="EXPR_CASE_THEN_WRAP" value="true" />
     </MSSQLCodeStyleSettings>
-    <MySQLCodeStyleSettings version="2">
+    <MySQLCodeStyleSettings version="5">
+      <option name="USE_GENERAL_STYLE" value="false" />
       <option name="IMP_COMMON_KEEP_BLANK_LINES_IN_CODE" value="1" />
       <option name="CORTEGE_SPACE_WITHIN_PARENTHESES" value="true" />
       <option name="EXPR_CALL_SPACE_INSIDE_PARENTHESES" value="true" />
       <option name="EXPR_CASE_THEN_WRAP" value="true" />
     </MySQLCodeStyleSettings>
-    <OracleCodeStyleSettings version="2">
+    <OracleCodeStyleSettings version="5">
+      <option name="USE_GENERAL_STYLE" value="false" />
       <option name="IMP_COMMON_KEEP_BLANK_LINES_IN_CODE" value="1" />
       <option name="IMP_DECLARE_CONTENT_WRAP" value="false" />
       <option name="CORTEGE_SPACE_WITHIN_PARENTHESES" value="true" />
       <option name="EXPR_CALL_SPACE_INSIDE_PARENTHESES" value="true" />
       <option name="EXPR_CASE_THEN_WRAP" value="true" />
     </OracleCodeStyleSettings>
-    <PostgresCodeStyleSettings version="2">
+    <PostgresCodeStyleSettings version="5">
+      <option name="USE_GENERAL_STYLE" value="false" />
       <option name="IMP_COMMON_KEEP_BLANK_LINES_IN_CODE" value="1" />
       <option name="IMP_DECLARE_CONTENT_WRAP" value="false" />
       <option name="CORTEGE_SPACE_WITHIN_PARENTHESES" value="true" />
       <option name="EXPR_CALL_SPACE_INSIDE_PARENTHESES" value="true" />
       <option name="EXPR_CASE_THEN_WRAP" value="true" />
     </PostgresCodeStyleSettings>
-    <SQLiteCodeStyleSettings version="2">
+    <SQLiteCodeStyleSettings version="5">
+      <option name="USE_GENERAL_STYLE" value="false" />
       <option name="IMP_COMMON_KEEP_BLANK_LINES_IN_CODE" value="1" />
       <option name="CORTEGE_SPACE_WITHIN_PARENTHESES" value="true" />
       <option name="EXPR_CALL_SPACE_INSIDE_PARENTHESES" value="true" />
       <option name="EXPR_CASE_THEN_WRAP" value="true" />
     </SQLiteCodeStyleSettings>
-    <SqlCodeStyleSettings version="2">
+    <SqlCodeStyleSettings version="5">
       <option name="IMP_COMMON_KEEP_BLANK_LINES_IN_CODE" value="1" />
       <option name="IMP_DECLARE_CONTENT_WRAP" value="false" />
       <option name="CORTEGE_SPACE_WITHIN_PARENTHESES" value="true" />
       <option name="EXPR_CALL_SPACE_INSIDE_PARENTHESES" value="true" />
       <option name="EXPR_CASE_THEN_WRAP" value="true" />
     </SqlCodeStyleSettings>
-    <SybaseCodeStyleSettings version="2">
+    <SybaseCodeStyleSettings version="5">
+      <option name="USE_GENERAL_STYLE" value="false" />
       <option name="IMP_COMMON_KEEP_BLANK_LINES_IN_CODE" value="1" />
       <option name="IMP_DECLARE_CONTENT_WRAP" value="false" />
       <option name="CORTEGE_SPACE_WITHIN_PARENTHESES" value="true" />
